@@ -1,0 +1,62 @@
+html, body {
+	height:100%;
+	overflow: auto;
+	position: absolute;
+}
+
+::-webkit-scrollbar {
+    /* width: 0px; */
+    background: transparent; 
+}
+
+a:link, a:hover, a:visited {
+	color: #bfb8b8;
+	text-decoration: none;
+}
+
+.background {
+	margin: 15% 3% 5% 31%;
+}
+
+.pictures {
+	margin: 5% 3% 5% 31%;
+	position: absolute;
+}
+
+.names {
+	position: absolute;
+}
+
+.actions{
+	font-size: 1.2vw;
+	margin-right: 20%;
+	text-align: justify;
+}
+
+div.tooltip {
+	max-width: 200px;
+}
+
+
+/*ABOUT*/
+.about {
+	margin: 0 2.5vw 0 27vw;
+	color: #bfb8b8;
+	font-size: 1.9vh;
+	line-height: 1.5rem;
+}
+
+.description {
+	text-align: justify;
+}
+
+.about p {
+	line-height: 1.2rem;
+	margin-bottom: .5rem;
+}
+
+.about .col-md-4{
+	padding-left: 3.5vw;
+	padding-right: 2vw;
+}
+

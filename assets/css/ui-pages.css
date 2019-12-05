@@ -1,0 +1,106 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+
+body {
+    background-color: #f1f3f1;
+    overflow: scroll;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+i {
+    color: black;
+}
+
+a:link, a:hover, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+
+.menu {
+    width: 175px; 
+    position: fixed;
+    z-index: 12000;
+    top: 0; /* Stay at the top */
+    left: 0;
+    /* overflow-x: hidden;  */
+	padding-top: 2.5%;
+	padding-left: 4%;
+    color:  #2e2b37;
+}
+
+a:hover, a:active {
+	text-decoration: line-through !important;
+	color: inherit !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.yelp .menu{
+    font-size: 1.5vw;
+}
+
+.yelp .title {
+    font-weight: 600;
+    font-size: 2.8vw;
+    line-height: 6vh;
+    text-align: center;
+    padding-top: 10vh;
+    color:black;
+}
+
+.note {
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: normal;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.yelp .text {
+    font-weight: 400;
+    font-size: 1.2vw;
+    padding: 9vh 20vw;
+    color:black;
+    line-height: 1.7;
+}
+
+.bullets {
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 3vh;
+    margin: 4vh 11vw 5vh;
+    list-style-type:none;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.yelp .subtitle {
+    font-weight: 600;
+    font-size: 1.9vw;
+    line-height: normal;
+    margin: 5vh auto 1vh;
+    color:black;
+}
+
+.sub-subtitle {
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: normal;
+    margin: 5vh auto 1vh;
+    color:black;
+}
+
+.captions {
+    font-weight: 300;
+    font-size: 1.1vw;
+    line-height: normal;
+    font-style: oblique;
+    color: white;
+    padding-bottom: 5vh;
+}

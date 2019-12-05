@@ -32,6 +32,7 @@ h5 {
 	line-height: 5vh;
 	margin-bottom: 0;
 	font-weight: 700; 
+	letter-spacing: .01vw;
 }
 
 h6 {
@@ -40,6 +41,7 @@ h6 {
 	line-height: 3.5vh;
 	margin-bottom: 0;
 	font-weight: 400; 
+	letter-spacing: .01vw;
 }
 
 .names {

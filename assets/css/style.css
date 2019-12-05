@@ -26,20 +26,20 @@ a:link, a:hover, a:visited {
 	position: absolute;
 }
 
-.pictures h5 {
+h5 {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	font-size: 1.2rem;
-	line-height: 1.5rem;
+	font-size: 2.8vh;
+	line-height: 5vh;
 	margin-bottom: 0;
 	font-weight: 700; 
 }
 
-.background h5 {
+h6 {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	font-size: 1.2rem;
-	line-height: 1.5rem;
+	font-size: 2.1vh;
+	line-height: 3.5vh;
 	margin-bottom: 0;
-	font-weight: 700; 
+	font-weight: 400; 
 }
 
 .names {
@@ -62,7 +62,6 @@ div.tooltip {
 	margin: 0 2.5vw 0 27vw;
 	color: #bfb8b8;
 	font-size: 1.9vh;
-	/* line-height: 1.5rem; */
 }
 
 .description {
@@ -70,7 +69,7 @@ div.tooltip {
 }
 
 .about p {
-	line-height: 1.2rem;
+	line-height: 3vh;
 	margin-bottom: .5rem;
 }
 

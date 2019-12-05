@@ -19,8 +19,8 @@
 
     <div class="pictures">
             <b>Remember Their Names</b><br>
-            December 06, 2019
-            <br><br>
+            <h6>December 06, 2019</h6>
+            <br>
             <p class="actions">Earlier in the semester, a group of Harvard students began brainstorming an
             installation dedicated to honoring those who had suffered directly as part of the opioid epidemic.
             First and foremost, our purpose was to honor these lives as individuals, and to communicate through
@@ -30,7 +30,7 @@
             concentrating in the Massachusetts region and create a participatory installation that would display 
             these names, indicating rememberance and a community of support. The display would be
             done with the Arthur M. Sackler building, and would essentially encase the surface area of the stairs
-            and lobby with lives and storiees tied to a responsibility held by the building namesake.
+            and lobby with lives and stories tied to a responsibility held by the building namesake.
             <br><br>
             <i>(Pictures will be uploaded following the installation opening on 12.06.2019)</i>
             <br><br>
@@ -83,15 +83,20 @@
             .transition()
             .duration(200)
             .style("opacity", 1)
-        }
-
-        var moveTooltip = function(d) {
             tooltip
             .html(d.birth + " - " + d.passing + "<br>" + d.home + "<br>" + d.message)
             .style("left", (d3.mouse(this)[0]) + "px")
             .style("top", (d3.mouse(this)[1]) + "px")
             .style("font-size", "10px")
         }
+
+        // var moveTooltip = function(d) {
+        //     tooltip
+        //     .html(d.birth + " - " + d.passing + "<br>" + d.home + "<br>" + d.message)
+        //     .style("left", (d3.mouse(this)[0]) + "px")
+        //     .style("top", (d3.mouse(this)[1]) + "px")
+        //     .style("font-size", "10px")
+        // }
 
         var hideTooltip = function(d) {
             tooltip
@@ -120,7 +125,7 @@
                 return Math.floor(i/5) * 70;
             })
             .on("mouseover", showTooltip )
-            .on("mousemove", moveTooltip )
+            // .on("mousemove", moveTooltip )
             .on("mouseleave", hideTooltip );
                 
         var name = svg.selectAll("text")
@@ -148,7 +153,7 @@
             .attr("font-weight", 500)
             .style("text-anchor", "middle")
             .on("mouseover", showTooltip )
-            .on("mousemove", moveTooltip )
+            // .on("mousemove", moveTooltip )
             .on("mouseleave", hideTooltip );
 
         name.append("text")
@@ -172,7 +177,7 @@
             .attr("font-weight", 500)
             .style("text-anchor", "middle")
             .on("mouseover", showTooltip )
-            .on("mousemove", moveTooltip )
+            // .on("mousemove", moveTooltip )
             .on("mouseleave", hideTooltip );
     });
     </script>
